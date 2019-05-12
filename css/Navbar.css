@@ -1,6 +1,7 @@
 .navbar-nav {
 	position: center;
 	width: 40%;
+	font-size: 15px;
 }
 
 .navbar-nav a{
@@ -12,8 +13,8 @@
 .navbar-brand {
 	color: black;
 	font-weight: bold;
-	margin-left: 60px;
-	font-size: 30px;
+	margin-left: 15px;
+	font-size: 1.8em;
 }
 
 .navbar {
