@@ -1,0 +1,52 @@
+.btn-group{
+	position: fixed;
+	height: 50%;
+	top: auto;
+    bottom: 0%;
+    display: block;
+}
+
+.list-group a {
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.8);
+}
+
+.list-group-item {
+	padding: 0;
+	margin: 0;
+	margin-top: 3px;
+	background-color: transparent;
+	border: none;
+}
+
+.fa-linkedin:hover {
+    color: #0077B5;
+}
+
+.fa-github-square:hover {
+    color: #d20962;
+}
+
+.fa-medium:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+.fa-slack:hover {
+    color: #E01E5A;
+}
+
+.fa-discord:hover {
+    color: #738ADB;
+}
+
+.fa-twitter-square:hover {
+    color: #38A1F3;
+}
+
+.fa-hackerrank:hover {
+    color: #29b35b;
+}
+
+.fa-instagram:hover {
+    color: #fb3958;
+}
