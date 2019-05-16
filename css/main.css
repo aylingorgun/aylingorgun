@@ -20,30 +20,73 @@ body, html {
   color: white;
 }
 
-.bg .container {
-  position: center;
-  width: 60%;
-}
-
-h1 {
+.bg h1 {
   font-size: 3em;
   padding-bottom: .6em;
 }
 
-p {
+.bg p {
 	color: rgba(255, 255, 255, 0.8);
 	font-size: 1em;
 	line-height: 2em;
 	letter-spacing: 3px;
 }
 
-h2 {
+.bg h2 {
 	color: rgba(255, 255, 255, 0.8);
 	letter-spacing: 3px;
-	font-size: .8em;
+	font-size: 1em;
 }
 
 .articles{
   background-color: rgba(0, 0, 0, 0.8);
   height: 100%;
+}
+
+.articles .container {
+  position: absolute;
+  top: 150%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-right: 12vw;
+  padding-left: 12vw;
+}
+
+.articles a {
+  color: rgba(0, 0, 0, 1);
+  text-decoration: none !important;
+}
+
+.articles a:hover {
+  color: #0077B5;
+}
+
+.col-sm-10 {
+  padding-bottom: 10px;
+}
+
+@media screen and (max-width: 800px) {
+
+  .card h1 {
+    font-size: 1em;
+  }
+
+  .card p {
+    font-size: .8em;
+  }
+
+  .articles img {
+    display: none;
+  }
+
+  .bg h1 {
+    font-size: 2em;
+    padding-bottom: .5em;
+  }
+
+  .bg p {
+    font-size: 1em;
+    line-height: 1em;
+    letter-spacing: 1.2px;
+  }
 }
