@@ -30,7 +30,7 @@ p {
 }
 
 .bg p {
-	color: rgba(5, 5, 5, 0.8) !important;
+	color: rgba(255, 255, 255, 0.8) !important;
 	font-size: 1em;
 	line-height: 2em;
 	letter-spacing: 3px;
