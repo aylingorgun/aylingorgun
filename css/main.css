@@ -82,6 +82,29 @@ p {
   border-color: #000;
 }
 
+.typewriter h1 {
+  overflow: hidden; 
+  border-right: .15em solid #007bff; 
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: .15em; 
+  animation: 
+    typing 3.5s steps(50, end),
+    blink-caret 1s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #007bff; }
+}
+
+
 @media screen and (max-width: 800px) {
 
   .card h1 {
