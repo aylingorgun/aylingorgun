@@ -13,7 +13,7 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 70%;
+  opacity: 60%;
 }
 
 .centered {
@@ -21,6 +21,10 @@ p {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  color: white;
+}
+
+.centered a:hover {
   color: white;
 }
 
