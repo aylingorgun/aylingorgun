@@ -3,6 +3,10 @@ body, html {
   margin: 0;
 }
 
+p {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
 .bg {
   background-image: url('background.jpg');
   height: 100%; 
@@ -24,14 +28,13 @@ body, html {
   color: white;
 }
 
-
 .bg h1 {
   font-size: 3em;
   padding-bottom: .6em;
 }
 
 .bg p {
-	color: rgba(255, 255, 255, 0.9) !important;
+	color: rgba(255, 255, 255, 0.8) !important;
 	font-size: 1em;
 	line-height: 2em;
 	letter-spacing: 3px;
@@ -95,13 +98,14 @@ body, html {
   to { width: 100% }
 }
 
+/* The typewriter cursor effect */
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: #007bff; }
 }
 
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 800px) {
 
   .card h1 {
     font-size: 1em;
